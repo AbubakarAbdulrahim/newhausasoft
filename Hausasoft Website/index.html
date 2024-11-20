@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hausasoft Technologies - Empowering communities through digital transformation.">
+  <title>Hausasoft Technologies</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+      <span><a class="highlight"><img src="img/logo_white.png"width="200" height="53"></a></span>
+      <span><nav class="nav-links">
+        <a href="#services">SERVICES</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+      </nav></span>
+    </header>
+    <!-- Hero Section with Slideshow -->
+    <section class="hero">
+      <div class="slideshow-container">
+        <div class="slide fade">
+          <img src="img/photo1.jpg" alt="Tech Innovation" class="slide-image">
+          <div class="caption">Empowering Communities</div>
+        </div>
+        <div class="slide fade">
+          <img src="img/photo2.jpg" alt="Web Development" class="slide-image">
+          <div class="caption">Bridging Technology</div>
+        </div>
+        <div class="slide fade">
+          <img src="img/photo3.jpg" alt="Digital Transformation" class="slide-image">
+          <div class="caption">Transforming Lives</div>
+        </div>
+        <div class="slide fade">
+          <img src="img/photo4.jpg" alt="AI and Data Science" class="slide-image">
+          <div class="caption">Unfolding the Future</div>
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+      <h1>Welcome to Hausasoft Technologies</h1>
+      <p>Empowering communities through digital transformation. We are your trusted partner in the digital era, bridging the gap between evolving technology and the Hausa-speaking community.</p>
+      <div class="cta-buttons">
+        <button class="primary">Explore Services</button>
+        <button class="secondary">Learn More</button>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+      <div class="cards">
+        <div class="card">
+          <i class="fas fa-globe"></i>
+          <h3>Website Design & Development</h3>
+          <p>Custom websites blending functionality with cultural relevance for individuals, businesses, and organizations.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-file-alt"></i>
+          <h3>Content Creation</h3>
+          <p>Engaging and culturally aligned content that resonates with the Hausa-speaking community.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-users"></i>
+          <h3>Community Opportunities</h3>
+          <p>Connecting talented individuals with valuable opportunities to grow, learn, and collaborate within the tech industry.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-database"></i>
+          <h3>Consulting & Data Science</h3>
+          <p>Full-stack data science and consulting services to help businesses leverage data-driven insights for growth and innovation.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Mobile Apps</h3>
+          <p>Native and cross-platform mobile applications tailored for the Hausa-speaking community.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-comment-alt"></i>
+          <h3>Support & Training</h3>
+          <p>Comprehensive technical support and user training services in Hausa and English.</p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p>Hausasoft Technologies is a forward-thinking and innovative tech company committed to fostering digital transformation and bridging the gap between technology and cultural relevance. Rooted in a mission to empower communities, Hausasoft specializes in providing a wide range of technology services, including website design and development, culturally aligned content creation, mobile app development, full-stack data science consulting, and comprehensive technical support. Its primary focus is on delivering cutting-edge solutions that cater specifically to the Hausa-speaking community, ensuring that cultural values and local needs are at the forefront of every project. Hausasoft Technologies thrives on principles of inclusivity, simplicity, and a future-oriented approach, making it a trusted partner for individuals, businesses, and organizations navigating the digital era. With an emphasis on cultural preservation and community empowerment, the company not only meets current technological demands but also inspires innovation for generations to come.
+
+        The vision behind Hausasoft Technologies is brought to life by its founders, Abubakar Abdulrahim and Al-mustapha Umar, both passionate technologists with a shared goal of driving progress through technology. Abubakar Abdulrahim, an accomplished IT professional and cybersecurity analyst certified by Cisco, hails from Kofar Wambai, Kano, Nigeria. Currently a student at Bayero University Kano, Abubakar has a strong background in full-stack web development and a keen interest in leveraging his skills to uplift his community. His leadership, dedication to innovation, and commitment to cultural values are central to Hausasoft’s success.
+        
+        Al-mustapha Umar, the co-founder and CEO of Arabit Collections, brings a wealth of experience and insight to Hausasoft. As a visionary leader, Al-mustapha shares Abubakar’s passion for creating meaningful digital solutions tailored to the unique needs of the Hausa-speaking community. Together, they have built a company that stands as a beacon of technological advancement, focusing on bridging gaps in accessibility, fostering collaboration, and driving impactful change.
+        
+        Through their combined efforts, Hausasoft Technologies has positioned itself as a pioneer in the tech industry, delivering excellence while staying true to its roots.
+        
+        
+        
+        
+        
+        
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>Ready to transform your business and community through technology? Get in touch with us to discuss your project or learn more about our services.</p>
+      <form class="contact-form" action="handle_form.php" method="POST">
+        <div class="row">
+          <input type="text" placeholder="First Name">
+          <input type="text" placeholder="Last Name">
+        </div>
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2024 Hausasoft Technologies. All rights reserved.</p>
+      <nav>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Service</a>
+      </nav>
+    </footer>
+  </div>
+  <script>
+    let slideIndex = 0;
+    const showSlides = () => {
+      const slides = document.querySelectorAll(".slide");
+      slides.forEach((slide, index) => {
+        slide.style.display = "none";
+      });
+      slideIndex++;
+      if (slideIndex > slides.length) slideIndex = 1;
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 4000); // Change slide every 4 seconds
+    };
+    const changeSlide = (n) => {
+      slideIndex += n - 1;
+      showSlides();
+    };
+    document.addEventListener("DOMContentLoaded", showSlides);
+  </script>
+</body>
+</html>
